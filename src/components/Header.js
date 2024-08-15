@@ -24,7 +24,7 @@ export const Header = () => {
   
   return (
     <header>
-      <nav className="bg-lime-100 border-b-2 border-gray-200 dark:bg-black dark:border-b-2 dark:border-gray-200">
+      <nav className="bg-amber-200 border-b-2 border-gray-200 dark:bg-black dark:border-b-2 dark:border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={Logo} className="h-8 rounded-md" alt="Kinobratva Logo" />
@@ -69,7 +69,7 @@ export const Header = () => {
               </div>
               <input type="text" id="search-navbar" className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." autoComplete="off"/>
             </div>
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-lime-100 dark:bg-gray-800 md:dark:bg-black dark:border-gray-700">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-amber-200 dark:bg-gray-800 md:dark:bg-black dark:border-gray-700">
               <li>
                 <NavLink to="/" className={({isActive}) => isActive ? activeClass : inactiveClass} aria-current="page" end>Головна</NavLink>
               </li>
