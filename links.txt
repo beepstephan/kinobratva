@@ -5,16 +5,16 @@ Individual:
 https://api.themoviedb.org/3/movie/{movie_id}?api_key=62546785c60a10fc4208302d6b0be2f9
 
 Now PLaying:
-https://api.themoviedb.org/3/movie/now_playing?api_key=62546785c60a10fc4208302d6b0be2f9
+https://api.themoviedb.org/3/movie/now_playing?api_key=62546785c60a10fc4208302d6b0be2f9&language=uk-UA
 
 Popular:
-https://api.themoviedb.org/3/movie/popular?api_key=62546785c60a10fc4208302d6b0be2f9
+https://api.themoviedb.org/3/movie/popular?api_key=62546785c60a10fc4208302d6b0be2f9&language=uk-UA
 
 Top Rated: 
-https://api.themoviedb.org/3/movie/top_rated?api_key=62546785c60a10fc4208302d6b0be2f9
+https://api.themoviedb.org/3/movie/top_rated?api_key=62546785c60a10fc4208302d6b0be2f9&language=uk-UA
 
 Upcoming:
-https://api.themoviedb.org/3/movie/upcoming?api_key=62546785c60a10fc4208302d6b0be2f9
+https://api.themoviedb.org/3/movie/upcoming?api_key=62546785c60a10fc4208302d6b0be2f9&language=uk-UA
 
 Search:
 https://api.themoviedb.org/3/search/movie?api_key=62546785c60a10fc4208302d6b0be2f9&query={movie_name}
