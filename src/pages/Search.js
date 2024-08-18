@@ -1,12 +1,15 @@
 import { useSearchParams } from "react-router-dom";
 import { Card } from "../components";
 import { useFetch } from "../hooks/useFetch";
+import { useUpdateTitle } from "../hooks/useUpdateTitle";
 
 export const Search = ({apiPath}) => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("q");
 
   const {data: movies} = useFetch(apiPath, query);
+
+  useUpdateTitle(`Фільми подібні до "${query}" • Кінобратва`);
 
   return (
     <main>

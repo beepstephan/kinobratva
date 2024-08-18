@@ -6,16 +6,16 @@ export const Footer = () => {
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link to="/" className="hover:underline">Кінобратва</Link>. Всі права захищені.</span>
       <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
-              <a href="/" className="hover:underline me-4 md:me-6">Про застосунок</a>
+              <Link to="about" className="hover:underline me-4 md:me-6">Про застосунок</Link>
           </li>
           <li>
-              <a href="/" className="hover:underline me-4 md:me-6">Discord</a>
+              <a href="https://discord.gg/JPtD6eDN" target="_blank" rel="noreferrer" className="hover:underline me-4 md:me-6">Discord</a>
           </li>
           <li>
-              <a href="/" className="hover:underline me-4 md:me-6">Telegram</a>
+              <a href="https://t.me/assaultvibes" target="_blank" rel="noreferrer" className="hover:underline me-4 md:me-6">Telegram</a>
           </li>
           <li>
-              <a href="/" className="hover:underline">Github</a>
+              <a href="https://github.com/beepstephan" target="_blank" rel="noreferrer" className="hover:underline">Github</a>
           </li>
       </ul>
     </footer>

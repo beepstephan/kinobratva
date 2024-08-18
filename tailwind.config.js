@@ -6,6 +6,9 @@ module.exports = {
         screens: {
           "other": {'min': '340px', 'max': '1200px'},
         },
+        colors: {
+          darkbg: "#7c3aed",
+        }
       },
     },
     plugins: [],
