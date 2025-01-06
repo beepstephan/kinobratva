@@ -6,7 +6,7 @@ export const About = ({title}) => {
     <main>
         <section>
             <div className="text-slate-900 dark:text-zinc-50 text-xl items-center">
-              Братвааааа, все ради вас
+              Братвааааа, все заради вас
             </div>
         </section>
     </main>
